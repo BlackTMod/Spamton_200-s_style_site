@@ -20,3 +20,9 @@ function News() {
 window.open ("News.html")
 
 }
+
+function SpamImg() {
+  
+ alert ("175.98.01.99") 
+  
+}
