@@ -17,6 +17,6 @@ function PornPage() {
 }
 function News() {
 
-window.open ("News")
+window.open ("Alternative Pages/News.html")
 
 }
