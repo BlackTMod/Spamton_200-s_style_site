@@ -1,6 +1,6 @@
-function alertButton() {
+function robux() {
   
-alert ("insert pop-up here");
+window.open ("Virus.html")
 }
 function AboutSpamton() {
   
@@ -13,7 +13,7 @@ function ChapterLeak() {
 
 function PornPage() {
   
-  window.open ("https://m.youtube.com/watch?v=dxJyI8Vl46Y")
+  window.open ("https://youtu.be/kO_cRJ6M4TE")
 }
 function News() {
 
@@ -23,6 +23,15 @@ window.open ("News.html")
 
 function SpamImg() {
   
- alert ("175.98.01.99") 
+ alert (" IP adress Stealed sucefully: 175.98.01.99") 
   
 }
+
+function PopUpVirus() {
+  
+  var txt;
+  if (confirm("You really want to install Computer_Destroyer.dat? ")) {
+    alert ("Ok");
+  } else {
+  
+  }}
