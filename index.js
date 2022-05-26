@@ -35,3 +35,9 @@ function PopUpVirus() {
   } else {
   
   }}
+  
+  function cu() {
+    
+    alert("i fucked your mother in the last night, my [[BIG SHOT]]!!")
+    window.open ("https://youtu.be/8Ws8JmhlQzU")
+  }
