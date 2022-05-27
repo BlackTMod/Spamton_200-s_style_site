@@ -2,7 +2,7 @@
 This is a site made by i
 * Here the link: https://blacktmod.github.io/Spamton_200-s_style_site/
 
-( This site is ugly because i'm not a designer, i'm a dev. i am the only working on this!)
+(* This site is ugly because i'm not a designer, i'm a dev. i am the only working on this!*)
 
 YOU WANT [[DEALS]]¿!?! 
 THIS IS THE PERFECT PLACE TO YOU [[Cyber Citu Habitant]]!
