@@ -41,3 +41,20 @@ function PopUpVirus() {
     alert("i fucked your mother in the last night, my [[BIG SHOT]]!!")
     window.open ("https://youtu.be/8Ws8JmhlQzU")
   }
+  function home() {
+    
+    window.open("index.html")
+    
+  }
+  function news()
+  {
+    window.open("News.html")
+  }
+  function blogs()
+  {
+    alert ("Coming soon")
+  }
+  function about()
+  {
+    window.open("about.html")
+  }

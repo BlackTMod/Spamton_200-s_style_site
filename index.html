@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<p>
+  <h1 style="background-color: black">
+    <div class="topnav">
+  <a onclick="home()" class="active" href="#home">Home</a>
+  <a onclick="news()" href="#news">News</a>
+  <a onclick="blogs()" href="#contact">Blogs</a>
+  <a onclick="about()" href="#about">About</a>
+  </h1>
+</div>
+</p>
    <link rel="stylesheet" href="./styles.css"/>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <img src="6.png" width="390">
-  <h6 style="text-align:center;border:3px double #00BFFF">Spamton site - Made by Spamton - @Spamton - Host: Github pages</h6>
+  <h6 class="cr" style="text-align:center;border:3px double #00BFFF">Spamton site - Made by Spamton - @Spamton - Host: Github pages</h6>
   <title style="border: solid"> Spamton_Deals_Site.com</title>
 <center>
-  <img src="2.png" width="400" onclick="SpamImg()">
+  <img class="ads" src="2.png" width="400" onclick="SpamImg()">
   
-  <h3 style="border:1px solid black">Welcome! this is a site created by Spamton in the 2000's style.</h3>
-  <p style="background-color:#7CB9E8;border:2px solid black">- Who is Spamton? - Spamton is a spammer, dealer/salesman, ad host and salesman. For more details, click in the button "About Spamton"</p>
+  <h3 class="welcome">Welcome! this is a site created by Spamton in the 2000's style.</h3>
+  <p class="as">- Who is Spamton? - Spamton is a spammer, dealer/salesman, ad host and salesman. For more details, click in the button "About Spamton"</p>
   </center>
   <!-- AngularJS -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
@@ -20,14 +29,14 @@
   
 </head>
 
-<body style="background-color:#7CB9E8;border:1px solid black">
+<body style="background-color:#BCD4E6;">
  <link rel="stylesheet" href="index.css">
   <!-- AngularJS App Container -->
 <div id="angular-app" data-ng-app="app">
   <div data-ng-controller="MainCtrl as vm" class="">
     <p> 
     <center>
-    <button onclick="robux()">Free Robux here</button>
+    <button class="robux" onclick="robux()">Free Robux here</button>
     </p>
     <p>
     <button onclick="AboutSpamton()">About Spamton</button>
@@ -35,15 +44,23 @@
     <button onclick="ChapterLeak()">Chapter 3 oficial leak</button>
     <button onclick="News()">News by Spamton</button>
     
-    <center>
-    <img src="1.png" width="280" style="background-color:green" onclick="PornPage()">
-    <img src="3.png" width="280" style="background-color:green" onclose="PornPage()">
-    <img src="4.png" width="280" style="background-color:green" onclick="PornPage()" >
-    <img src="5.png" width="280" style="background-color:blue">
+    <center >
+    <img class="ads" src="1.png" width="280" onclick="PornPage()">
+    <img class="ads" src="3.png" width="280" onclose="PornPage()">
+    <img class="ads" src="4.png" width="280" onclick="PornPage()" >
+    <img class="ads" src="5.png" width="280">
+     <img class="ads" src="1.png" width="280" onclick="PornPage()">
+    <img class="ads" src="3.png" width="280" onclose="PornPage()">
+    <img  class="ads" src="4.png" width="280" onclick="PornPage()" >
+    <img  class="ads" src="5.png" width="280">
+    <img  class="ads" src="1.png" width="280" onclick="PornPage()">
+    <img  class="ads" src="3.png" width="280" onclose="PornPage()">
+    <img  class="ads" src="4.png" width="280" onclick="PornPage()" >
+    <img  class="ads" src="5.png" width="280">
+   
       </center>
     </p> 
   </div>
-  <!-- Project -->
   <center>
   <script src="index.js"></script>
   <footer style="border:3px double white">~ Copyright - Spamton - 1999-2000 ~</footer>
