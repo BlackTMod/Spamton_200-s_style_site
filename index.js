@@ -58,3 +58,9 @@ function PopUpVirus() {
   {
     window.open("about.html")
   }
+  function pfamino() {
+    window.open ("http://aminoapps.com/p/uir0i91")
+  }
+  function pfyoutube() {
+    window.open ("https://youtube.com/channel/UCF9oaZ2i08072o5V0sguevQ")
+  }
