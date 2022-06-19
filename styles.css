@@ -33,7 +33,7 @@
 /* Add a black background color to the top navigation */
 .topnav {
   margin-bottom: 20px;
-  background-color: #333;
+  background-color: #001b73;
   overflow: hidden;
 }
 
@@ -41,7 +41,7 @@
 .topnav a {
   border: 1px solid black;
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
@@ -56,7 +56,7 @@
 
 /* Add a color to the active/current link */
 .topnav .active {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
 }
 
@@ -87,4 +87,16 @@
 .youtube_img {
   margin-right: 200px;
   display: inline-block;
+}
+.blogbody {
+  background-color: #BCD4E6;
+  
+}
+.d1 {
+  margin-top: 90px;
+}
+.d2 {
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color: white;
 }

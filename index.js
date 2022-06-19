@@ -1,6 +1,7 @@
+var blog = false
 function robux() {
   
-window.open ("Virus.html")
+window.alert ("A")
 }
 function AboutSpamton() {
   
@@ -22,8 +23,6 @@ window.open ("News.html")
 }
 
 function SpamImg() {
-  
- alert (" IP adress Stealed sucefully: 175.98.01.99") 
   
 }
 
@@ -52,7 +51,7 @@ function PopUpVirus() {
   }
   function blogs()
   {
-    alert ("Coming soon")
+    window.open ("Blogs.html")
   }
   function about()
   {
@@ -63,4 +62,24 @@ function PopUpVirus() {
   }
   function pfyoutube() {
     window.open ("https://youtube.com/channel/UCF9oaZ2i08072o5V0sguevQ")
+  }
+  function logsign() {
+    if (blog === true) {
+    window.open ("AS.html")
+    }
+    else {
+      window.alert ("Coming Soon!")
+    }
+  }
+  
+  var ap = new Date ();
+  var apm = ap.getMonth();
+  var apd = ap.getDate();
+  var dt = new Array (apm, apd);
+  
+  function  onload() {
+    console.log(dt);
+    if (dt === (3, 1)) {
+    document.body.style.backgroundColor = 'black';
+   }
   }
