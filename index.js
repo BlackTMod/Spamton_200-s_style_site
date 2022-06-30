@@ -76,10 +76,4 @@ function PopUpVirus() {
   var apm = ap.getMonth();
   var apd = ap.getDate();
   var dt = new Array (apm, apd);
-  
-  function  onload() {
     console.log(dt);
-    if (dt === (3, 1)) {
-    document.body.style.backgroundColor = 'black';
-   }
-  }
